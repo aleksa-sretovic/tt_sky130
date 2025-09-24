@@ -9,11 +9,21 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+AND, NAND  and OR gate sare connected to input a and b.
+16 flip flops are used to divide the clock speed with 2 outputs, one at the 12th flip and one at the 16th.
 
 ## How to test
 
-Explain how to use your project
+Set the inputs and check and check th outputs match with the expected results.
+
+| inout a and b | output AND | output NAND | output OR |
+|---------------|------------|-------------|-----------|
+| 0 0           | 0          | 1           | 0         |
+| 0 1           | 0          | 0           | 1         |
+| 1 0           | 0          | 0           | 1         |
+| 1 1           | 1          | 0           | 1         |
+
+Set the clock to 10kHz and you should see the 5th output flashing quickly and the 4th output flashing slowly.
 
 ## External hardware
 
