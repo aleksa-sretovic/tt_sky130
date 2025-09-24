@@ -30,7 +30,7 @@ pinout:
   uo[1]: "output nand"
   uo[2]: "output or"
   uo[3]: "output clock div 16"
-  uo[4]: "output clock div 16"
+  uo[4]: "output clock div 12"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
